@@ -1,0 +1,409 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-snap-type: y mandatory;
+}
+
+div {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+main {
+    margin: 60px;
+    margin-top: 100px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background: url(images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+}
+
+.header-1 {
+    margin: 50px 100px;
+}
+
+.header-1 button {
+    background-color: white;
+    float: right;
+    padding: 12px 45px;
+    border: none;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.header-2 {
+    display: flex;
+}
+
+.message {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px;
+}
+
+.message h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+.message p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.message button {
+    background: hsl(322, 100%, 66%);
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    width: 40%;
+}
+
+.mockup {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+.mockup img {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.grow-together {
+    display: flex;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    margin-bottom: 50px;
+}
+
+.grow-together-one {
+    width: 50%;
+    margin: auto 100px;
+}
+
+.grow-together-two {
+    width: 50%;
+}
+
+.flowing-conv {
+    display: flex;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    margin-bottom: 50px;
+}
+
+.flowing-conv-one {
+    width: 50%;
+}
+
+.flowing-conv-two {
+    width: 50%;
+    margin: auto 100px;
+}
+
+.your-users {
+    display: flex;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    margin-bottom: 150px;
+}
+
+.your-users-one {
+    width: 50%;
+    margin: auto 100px;
+}
+
+.your-users-two {
+    width: 50%;
+}
+
+.grow-together-two img,
+.flowing-conv-one img,
+.your-users-two img {
+    width: 90%;
+    height: auto;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.grow-together-one p,
+.flowing-conv-two p,
+.your-users-one p {
+    color: hsl(208, 11%, 55%);
+    font-family: "OpenSans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    width: 70%;
+}
+
+.grow-together-one h1,
+.flowing-conv-two h1,
+.your-users-one h1 {
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.get-started {
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 50px 0px;
+    background-color: white;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(50, 50, 50, 0.25) 0px 6px 12px 2px;
+}
+
+.get-started h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+}
+
+.get-started button {
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    width: 40%;
+}
+
+footer {
+    display: flex;
+    gap: 10px;
+    background-color: hsl(192, 100%, 9%);
+    padding: 100px;
+
+    margin-top: -140px;
+    padding-top: 150px;
+    z-index: -1;
+    position: relative;
+    color: #fff;
+    font-family: "OpenSans", sans-serif;
+}
+
+footer a {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.footer-1 {
+    width: 30%;
+}
+
+.footer-logo {
+    padding-bottom: 50px;
+}
+
+.footer-2 {
+    width: 25%;
+}
+
+.footer-3 {
+    width: 25%;
+}
+
+.footer-4 {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-4 li {
+    color: white;
+}
+
+.footer-4 ul li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 120px;
+}
+
+.footer-4 ul li a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 12px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+footer ul li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.footer-1 p img {
+    /* width: 20px;
+  height: 20px;
+  height: auto; */
+    margin: auto;
+    margin-right: 12px;
+}
+
+.footer-1 p {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-2,
+.footer-3,
+.footer-4 {
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 1440px) {
+    .header-2 {
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .grow-together {
+        flex-direction: column-reverse;
+    }
+
+    .flowing-conv {
+        flex-direction: column;
+    }
+
+    .your-users {
+        flex-direction: column-reverse;
+    }
+
+    .grow-together-one,
+    .flowing-conv-two,
+    .your-users-one {
+        padding-bottom: 80px;
+    }
+
+    .grow-together-one h1,
+    .flowing-conv-two h1,
+    .your-users-one h1 {
+        margin: auto;
+        text-align: center;
+    }
+
+    .message {
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+        padding: 50px;
+    }
+
+    .message button {
+        width: 65%;
+        padding: 20px;
+        margin: auto;
+    }
+
+    .mockup {
+        width: 100%;
+    }
+
+    .grow-together-one {
+        width: 100%;
+    }
+
+    .grow-together-two {
+        width: 100%;
+    }
+
+    .flowing-conv-one {
+        width: 100%;
+    }
+
+    .flowing-conv-two {
+        width: 100%;
+    }
+
+    .your-users-one {
+        width: 100%;
+    }
+
+    .your-users-two {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .get-started {
+        width: 100%;
+    }
+
+    .footer-2,
+    .footer-3 {
+        margin-top: 0px;
+    }
+
+    .footer-4 {
+        width: 100%;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-4,
+    .footer-3,
+    .footer-2,
+    .footer-1 {
+        width: 100%;
+        display: flex;
+
+    }
+}
