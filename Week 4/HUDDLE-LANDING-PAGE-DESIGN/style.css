@@ -307,29 +307,23 @@ footer ul li {
     .header-2 {
         flex-direction: column;
     }
-
     footer {
         flex-direction: column;
     }
-
     .grow-together {
         flex-direction: column-reverse;
     }
-
     .flowing-conv {
         flex-direction: column;
     }
-
     .your-users {
         flex-direction: column-reverse;
     }
-
     .grow-together-one,
     .flowing-conv-two,
     .your-users-one {
         padding-bottom: 80px;
     }
-
     .grow-together-one h1,
     .flowing-conv-two h1,
     .your-users-one h1 {
